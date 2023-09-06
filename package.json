@@ -1,14 +1,23 @@
 {
   "name": "test",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "- 유닛(단위)테스트(JEST)와 TDD - Jest와 RTL을 이용해 리액트 컴포넌트 테스트하기",
+  "main": "fn.js",
+  "directories": {
+    "doc": "docs"
+  },
   "scripts": {
     "test": "jest"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boyon99/test.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "jest": "^29.5.0"
-  }
+  "bugs": {
+    "url": "https://github.com/boyon99/test/issues"
+  },
+  "homepage": "https://github.com/boyon99/test#readme"
 }
