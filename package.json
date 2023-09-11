@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest --watch"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/boyon99/test/issues"
   },
-  "homepage": "https://github.com/boyon99/test#readme"
+  "homepage": "https://github.com/boyon99/test#readme",
+  "devDependencies": {
+    "jest": "^29.6.4"
+  },
+  "dependencies": {
+    "@types/jest": "^29.5.4"
+  }
 }
